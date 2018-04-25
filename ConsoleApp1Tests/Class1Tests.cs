@@ -14,6 +14,8 @@ namespace ConsoleApp1.Tests
         [TestMethod()]
         public void Minus_Input_First_3_Second_2_Return_1()
         {
+            int a = 0;
+
             Console.WriteLine("123");
             Calculator target = new Calculator();
             int firstNum = 3;
